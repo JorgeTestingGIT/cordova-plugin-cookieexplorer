@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-cookieexplorer" version="1.0.0">
+    <name>CookieExplorer</name>
+    <description>Since the original cookie-master is no longer maintained, I forked this project to make it run within the latest SDK (deprecated errors)</description>
+    <license>MIT</license>
+
+    <keywords>cordova,phonegap,cookie,cookies,cookie-manager,cookie-plugin,cookie-cookieExplorer</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines> 
+ 
+    <js-module src="www/cookieExplorer.js" name="cookieExplorer">
+        <clobbers target="cookieExplorer" />
+    </js-module>
+    
+    <!-- android -->
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        </config-file>
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="CookieExplorer">
+                <param name="android-package" value="com.siemens.mx.cookieexplorer.CookieExplorer"/>
+            </feature>
+        </config-file>
+ 
+        <source-file src="src/android/CookieExplorer.java" target-dir="src/com/jsj/cordova/plugins/cookieexplorer" />
+    </platform>          
+</plugin>

@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-cookieexplorer@file:///C:\\JSJ\\Sis\\SIMPL\\CookieExplorer\\cordova-plugin-cookieexplorer",
+        "scope": null,
+        "escapedName": "cordova-plugin-cookieexplorer",
+        "name": "cordova-plugin-cookieexplorer",
+        "rawSpec": "file:///C:\\JSJ\\Sis\\SIMPL\\CookieExplorer\\cordova-plugin-cookieexplorer",
+        "spec": "C:\\JSJ\\Sis\\SIMPL\\CookieExplorer\\cordova-plugin-cookieexplorer",
+        "type": "directory"
+      },
+      "C:\\JSJ\\Sis\\SIMPL\\HCMobile\\node_modules"
+    ]
+  ],
+  "_from": "..\\..\\..\\Users\\z003m5ec\\Desktop\\cordova-plugin-cookieexplorer",
+  "_id": "cordova-plugin-cookieexplorer@1.0.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-cookieexplorer",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-cookieexplorer@file:///C:\\JSJ\\Sis\\SIMPL\\CookieExplorer\\cordova-plugin-cookieexplorer",
+    "scope": null,
+    "escapedName": "cordova-plugin-cookieexplorer",
+    "name": "cordova-plugin-cookieexplorer",
+    "rawSpec": "file:///C:\\JSJ\\Sis\\SIMPL\\CookieExplorer\\cordova-plugin-cookieexplorer",
+    "spec": "C:\\JSJ\\Sis\\SIMPL\\CookieExplorer\\cordova-plugin-cookieexplorer",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:..\\..\\..\\Users\\z003m5ec\\Desktop\\cordova-plugin-cookieexplorer",
+  "_shasum": "fbe8d32436bb7286bff79cf8c21f0bf8eeb0b596",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-cookieexplorer@file:///C:\\JSJ\\Sis\\SIMPL\\CookieExplorer\\cordova-plugin-cookieexplorer",
+  "_where": "C:\\Sistemas\\SIMPL\\HCMobile\\node_modules",
+  "author": {
+    "name": "Jorge Alberto Sanchez Jasso",
+    "email": "elfabulosobeto@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/JorgeTestingGIT/cordova-plugin-cookieexplorer/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-cookieexplorer",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "An Android Cordova plugin that allows users to display simple Toast messages at the bottom of the screen.",
+  "devDependencies": {},
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "0ac24876f29eeccf167cfc89764d311cfaf77e4b",
+  "homepage": "https://github.com/JorgeTestingGIT/cordova-plugin-cookieexplorer",
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "cookie",
+    "cookies",
+    "cookie-manager",
+    "cookie-plugin",
+    "cookie-cookieExplorer"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-cookieexplorer",
+  "optionalDependencies": {},
+  "readme": "# cordova-plugin-cookieexplorer\r\nProyecto para realizar pruebas de cookies\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeTestingGIT/cordova-plugin-cookieexplorer.git"
+  },
+  "version": "1.0.0"
+}
